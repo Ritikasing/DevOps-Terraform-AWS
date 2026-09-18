@@ -33,7 +33,6 @@ Nginx Web Server
 Custom Website
 
 ```
-
 Technologies Used
 - AWS
 - Terraform
@@ -42,3 +41,59 @@ Technologies Used
 - GitHub
 - Nginx
 - SSH
+
+
+Infrastructure Created with Terraform
+
+Terraform is used to create and manage the following AWS resources:
+
+- VPC
+- Public Subnet
+- Internet Gateway
+- Route Table
+- Route Table Association
+- Security Group
+- EC2 Instance
+
+
+Web Server
+
+An EC2 instance is used to host an Nginx web server.
+
+Nginx is configured to serve a custom HTML web page, which can be accessed through the public IP address of the EC2 instance.
+
+
+Terraform Commands
+
+terraform init
+terraform validate
+terraform plan
+terraform apply
+terraform destroy
+
+Project Structure
+
+DevOps-Terraform-AWS/
+|
+|-- main.tf
+|-- variables.tf
+|-- outputs.tf
+|-- README.md
+|-- .gitignore
+
+Security
+
+- SSH access is restricted to the configured IP address.
+- AWS credentials and private key files are not stored in the GitHub repository.
+- Terraform state files are excluded using .gitignore.
+
+Learning Outcomes
+
+- Learned AWS infrastructure provisioning using Terraform.
+- Practiced creating VPC, subnet, security group and EC2 resources.
+- Learned how to configure Nginx on an EC2 instance.
+- Practiced using Git and GitHub for version control.
+
+Author
+
+Created as part of a DevOps learning project using AWS and Terraform.

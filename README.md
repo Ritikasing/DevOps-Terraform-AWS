@@ -32,7 +32,9 @@ Nginx Web Server
    v
 Custom Website
 ```
+
 Technologies Used
+
 - AWS
 - Terraform
 - Linux

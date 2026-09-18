@@ -6,7 +6,7 @@ This project demonstrates how to create and manage AWS infrastructure using Terr
 
 The infrastructure is created as code using Terraform, while the EC2 instance is configured with Nginx to host a custom web page.
 
- Architecture
+Architecture
 
 ```text
 Internet
@@ -31,10 +31,10 @@ Nginx Web Server
    |
    v
 Custom Website
-```text
 
- Technologies Used
+```
 
+Technologies Used
 - AWS
 - Terraform
 - Linux

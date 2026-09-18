@@ -1,12 +1,12 @@
-# AWS Infrastructure Automation & Web Deployment using Terraform
+AWS Infrastructure Automation & Web Deployment using Terraform
 
-## 📌 Project Overview
+Project Overview
 
 This project demonstrates how to create and manage AWS infrastructure using Terraform and deploy a web server using Nginx.
 
 The infrastructure is created as code using Terraform, while the EC2 instance is configured with Nginx to host a custom web page.
 
-## 🏗️ Architecture
+ Architecture
 
 ```text
 Internet
@@ -33,7 +33,7 @@ Nginx Web Server
 Custom Website
 ```text
 
-## 🛠️ Technologies Used
+ Technologies Used
 
 - AWS
 - Terraform
